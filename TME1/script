@@ -1,0 +1,4 @@
+set boxwidth 0.9 relative
+set style data histograms
+set style fill solid 1.0 border -1
+plot '/dev/stdin' using 2:xticlabels(1)
